@@ -5,7 +5,7 @@ import geolib from "geolib"; // Library for geographical calculations
 const LocationTracker = () => {
   const [userLocation, setUserLocation] = useState(null);
   const [distanceFromTarget, setDistanceFromTarget] = useState(null);
-  const targetLocation = { latitude: 27.6924323, longitude: 85.2793506 }; // Example: New York City coordinates
+  const targetLocation = { latitude: 27.7018, longitude: 85.3206 }; // Example: New York City coordinates
 
   useEffect(() => {
     const getUserLocation = () => {
